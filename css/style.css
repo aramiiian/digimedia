@@ -118,7 +118,7 @@ nav .navbut:hover {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: url(../img/slider-right-dec.jpg) no-repeat top / 75%, url(../img/slider-left-dec.jpg) no-repeat left ;
+    background: url(../img/slider-right-dec.jpg) no-repeat top / 66%, url(../img/slider-left-dec.jpg) no-repeat left ;
 }
 
 .home .dma{
@@ -167,4 +167,26 @@ nav .navbut:hover {
     width: 40%;
     height: 70%;
     background: url(../img/slider-dec.png) no-repeat center / 100%;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.about .aboutImg{
+    height: 100%;
+    width: 40%;
+    background: url(../img/about-dec.png) no-repeat bottom / 100%;
+    border: 1px solid #000;
+}
+
+.about .aboutus {
+    height: 100%;
+    width: 40%;
+    border: 1px solid #000;
 }
