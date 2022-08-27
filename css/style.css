@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,31 +7,42 @@
     font-family: 'Poppins', sans-serif;
 }
 
-header{
+header {
     width: 100%;
     height: 60px;
-    border: 1px solid;
-    background: #d6d6d6;
+    background: #efefef;
     display: flex;
     justify-content: space-evenly;
     gap: 40%;
-    
 }
-header .contact{
+
+header .contact {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 30px;
-    color: #636363;
+    color: #afafaf;
     font-family: 'Poppins', sans-serif;
-
-}
-header .contact .fas{
-    font-size: 18px;
-    color: #ababab;
+    font-size: 15px;
 }
 
-header .contactIcon{
+header .contact ul {
+    display: flex;
+    gap: 50px;
+
+}
+
+header .contact ul li a {
+    text-decoration: none;
+    color: #afafaf;
+    transition: .2s linear;
+}
+
+header .contact ul li a:hover {
+    color: #FA6FB6;
+}
+
+header .contactIcon {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -39,47 +50,270 @@ header .contactIcon{
     font-size: 25px;
     color: #ababab;
 }
-nav{
+
+header .contactIcon i {
+    transition: .2s linear;
+}
+
+header .contactIcon i:hover {
+    color: #FA6FB6;
+}
+
+nav {
     width: 100%;
-    height: 70px;
-    border: 1px solid;
+    height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-    
+    gap: 40px;
+    border-bottom: 6px solid #F8F8F8;
 }
-nav .logo{
-    width: 200px;
+
+nav .logo {
+    background: url(../img/logo-v1.png) no-repeat center / 100%;
+    width: 160px;
     height: 100%;
-    border: 1px solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
 }
+
 nav ul {
     display: flex;
     align-items: center;
-    gap: 35px;  
+    gap: 35px;
 }
+
 nav ul li {
-    letter-spacing: .5px;
+    letter-spacing: 1.5px;
     font-size: 18px;
     color: #2E2E2E;
-    transition: .2s ;
-    font-size: 16px;
+    transition: .2s;
+    font-size: 15px;
     font-weight: 600;
-    
+
 }
-nav ul li:hover{
+
+nav ul li:hover {
     color: #FA6FB6;
 }
-nav .navbut{
+
+nav .navbut {
     width: 125px;
     height: 40px;
+    font-size: 16px;
+    font-weight: 600;
     border: 1.5px solid #FA65B1;
     border-radius: 23px;
     color: #FA65B1;
+    background: #fff;
+    transition: .3s linear;
+}
+
+nav .navbut:hover {
+    background: #FA65B1;
+    color: #fff;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: url(../img/slider-right-dec.jpg) no-repeat top / 66%, url(../img/slider-left-dec.jpg) no-repeat left;
+}
+
+.home .dma {
+    width: 35%;
+    height: 70%;
+}
+
+.home .dma h4 {
+    font-size: 18px;
+    font-weight: 900;
+    color: #FA6FB6;
+    padding-top: 35px;
+}
+
+.home .dma h1 {
+    font-size: 47px;
+    font-weight: 800;
+    color: #2A2A2A;
+    padding: 10px 0;
+}
+
+.home .dma p {
+    color: #BBBBBB;
+    line-height: 30px;
+}
+
+.home .dma .homebut {
+    width: 125px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1.5px solid #FA65B1;
+    border-radius: 23px;
+    color: #FA65B1;
+    background: #fff;
+    transition: .3s linear;
+    margin-top: 20px;
+}
+
+.home .dma .homebut:hover {
+    background: #FA65B1;
+    color: #fff;
+}
+
+.home .homeimg {
+    width: 40%;
+    height: 70%;
+    background: url(../img/slider-dec.png) no-repeat center / 100%;
+}
+
+.about {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.about .aboutImg {
+    height: 100%;
+    width: 42%;
+    background: url(../img/about-dec.png) no-repeat bottom / 100%;
+}
+
+.about .aboutus {
+    height: 100%;
+    width: 42%;
+}
+
+.about .aboutus>h5 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #726AE3;
+    margin: 150px 0 15px 0;
+}
+
+.about .aboutus>h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #2A2A2A;
+    margin-bottom: 25px;
+}
+
+.about .aboutus .linedec {
+    width: 8%;
+    border: 1px solid #726AE3;
+    margin-bottom: 25px;
+}
+
+.about .aboutus h3 span {
+    color: #726AE3;
+}
+
+.about .aboutus>p {
+    color: #C1C1C1;
+    line-height: 28px;
+}
+
+.about .aboutus p a {
+    color: #3687FD;
+}
+
+.about .aboutus .circl {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6%;
+}
+
+.about .aboutus .circl .coding {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    background: conic-gradient(#FA65B1 0deg 320deg, #fff 320deg 360deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .aboutus .circl .coding .circtext {
+    width: 93%;
+    height: 93%;
+    border-radius: 50%;
+    background: #fff;
     
+    text-align: center;
+}
+
+.about .aboutus .circl .coding .circtext h5 {
+    font-size: 35px;
+    margin-top: 25%;
+    font-weight: 800;
+}
+
+.about .aboutus .circl .coding .circtext p {
+    font-size: 20px;
+    color: #B5B5B5;
+}
+
+.about .aboutus .circl .photoshop {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    background: conic-gradient(#726AE3 0deg 320deg, #fff 320deg 360deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .aboutus .circl .photoshop .circtext {
+    width: 93%;
+    height: 93%;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+}
+
+.about .aboutus .circl .photoshop .circtext h5 {
+    font-size: 35px;
+    margin-top: 25%;
+    font-weight: 800;
+}
+
+.about .aboutus .circl .photoshop .circtext p {
+    font-size: 20px;
+    color: #B5B5B5;
+}
+
+.about .aboutus .circl .animation {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    background: conic-gradient(#F58B56 0deg 320deg, #fff 320deg 360deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .aboutus .circl .animation .circtext {
+    width: 93%;
+    height: 93%;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.about .aboutus .circl .animation .circtext h5 {
+    font-size: 35px;
+    margin-top: 25%;
+    font-weight: 800;
+}
+
+.about .aboutus .circl .animation .circtext p {
+    font-size: 20px;
+    color: #B5B5B5;
 }
