@@ -318,8 +318,7 @@ nav .navbut:hover {
 }
 .services {
     width: 100%;
-    height: 170vh;
-    border: 1px solid #000;
+    height: 150vh;
     background: url(../img/services-left-dec.jpg) no-repeat left top / 60% , url(../img/services-right-dec.jpg) no-repeat right / 12%;
 }
 .services .ourService {
@@ -380,7 +379,7 @@ nav .navbut:hover {
 .services .seo{
     width: 80%;
     height: 45%;
-
+    border: 1px solid rgba(0, 0, 0, 0.050);
     margin: 5% auto;
     border-radius: 15px;
     display: flex;
@@ -425,3 +424,39 @@ nav .navbut:hover {
     background:url(../img/services-image.jpg) no-repeat center / 100%;
 }
 
+.quote{
+    width: 100%;
+    height: 60vh;
+    background: url(../img/quote-bg.jpg) no-repeat center / 100%;
+    text-align: center;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.quote p {
+    font-weight: 800;
+    color: #F8F8F8;
+    /* padding: 7% 0 0 0 ; */
+
+}
+
+.quote h4 {
+    font-weight: 800;
+    color: #F8F8F8;
+    font-size: 35px;
+    /* padding: 20px 0 20px 0 ; */
+}
+
+.quote .linedec3{
+    width: 4%;
+    border: 1px solid #F8F8F8;
+    /* margin:0 0 60px 47%; */
+}
+
+.quote .form{
+    width: 60vh;
+    height: 20vh;
+    background: #fff;
+    border: 1px solid #000;
+}
