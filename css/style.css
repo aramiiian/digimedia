@@ -429,15 +429,15 @@ nav .navbut:hover {
     height: 60vh;
     background: url(../img/quote-bg.jpg) no-repeat center / 100%;
     text-align: center;
-    display: flex;
-    /* justify-content: center;
+    /* display: flex;
+    justify-content: center;
     align-items: center; */
 }
 
 .quote p {
     font-weight: 800;
     color: #F8F8F8;
-    /* padding: 7% 0 0 0 ; */
+    padding: 7% 0 0 0 ;
 
 }
 
@@ -445,18 +445,53 @@ nav .navbut:hover {
     font-weight: 800;
     color: #F8F8F8;
     font-size: 35px;
-    /* padding: 20px 0 20px 0 ; */
+    padding: 20px 0 20px 0 ;
 }
 
 .quote .linedec3{
     width: 4%;
     border: 1px solid #F8F8F8;
-    /* margin:0 0 60px 47%; */
+    margin:0 0 60px 47%;
 }
 
 .quote .form{
-    width: 60vh;
-    height: 20vh;
+    width: 60%;
+    height: 20%;
     background: #fff;
-    border: 1px solid #000;
+    border-radius: 40px;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .form .url{
+    width: 35%;
+    height: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 4%;
+    font-size: 16px;
+    border: 1px solid #2e2e2e00;
+
+}
+.quote .form .email{
+    width: 35%;
+    height: 100%;
+    padding: 4%;
+    font-size: 16px;
+    border: 1px solid #2e2e2e00;
+
+}
+
+.quote .form .btn2{
+    width: 35%;
+    height: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #726AE3;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid #2e2e2e00;
 }
