@@ -592,4 +592,52 @@ nav .navbut:hover {
     height: 170vh;
     border: 1px solid;
     text-align: center;
+    background: url(../img/blog-left-dec.jpg) no-repeat left / 80%;
+}
+
+.blog .blogHead{
+    margin-top: 100px;
+}
+.blog .blogHead p{
+    font-weight: 800;
+    color: #726AE3;
+}
+
+.blog .blogHead h4{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.blog .blogHead h4 span{
+    color: #726AE3;
+}
+
+.blog .linedec5 {
+    width: 54px;
+    border: 1px solid #726AE3;
+    margin: 0 0 0 48%;
+}
+
+.blog .blogCont {
+    width: 100%;
+    height: fit-content;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.blog .blogCont .leftBox{
+    width: 40%;
+    height: 700px;
+    border: 1px solid;
+    border-radius: 30px;
+    background: url(../img/blog-post-01.jpg) no-repeat top / 100%;
+}
+
+.blog .blogCont .rightBox{
+    width: 40%;
+    height: 700px;
+    border: 1px solid;
+    border-radius: 30px;
 }
