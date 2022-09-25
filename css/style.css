@@ -507,7 +507,6 @@ nav .navbut:hover {
 .projects {
     width: 100%;
     height: 100vh;
-    border: 1px solid #000;
     background: url(../img/portfolio-left-dec.jpg) no-repeat left / 43%, url(../img/portfolio-right-dec.jpg) no-repeat right / 30%;
 }
 
@@ -537,7 +536,6 @@ nav .navbut:hover {
 .projects .projectSlider{
     width: 100%;
     height: 50%;
-    border: 1px solid;
     display: flex;
     justify-content: center;
     gap: 2%;
@@ -546,40 +544,46 @@ nav .navbut:hover {
 .projects .projectSlider .sliderBox {
     width: 17%;
     height: 100%;
-    border: 1px solid;
+    border: 1px solid rgba(116, 116, 116, 0.185);
     border-radius: 35px;
+}
+
+.projects .projectSlider .sliderBox h6{
+    font-size: 20px;
+    font-weight: 700px;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+.projects .projectSlider .sliderBox p {
+    text-align: center;
+    color: #B4B4AF;
 }
 
 .projects .projectSlider .sliderBox .sliderImg1{
     width: 100%;
     height: 70%;
-    border: 1px solid;
     background: url(../img/portfolio-01.jpg) no-repeat top / 100%;
 }
 .projects .projectSlider .sliderBox .sliderImg2{
     width: 100%;
     height: 70%;
-    border: 1px solid;
     background: url(../img/portfolio-02.jpg) no-repeat top / 100%;
 }
 .projects .projectSlider .sliderBox .sliderImg3{
     width: 100%;
     height: 70%;
-    border: 1px solid;
     background: url(../img/portfolio-03.jpg) no-repeat top / 100%;
 }
 
 .projects .projectSlider .sliderBox .sliderImg4{
     width: 100%;
     height: 70%;
-    border: 1px solid;
     background: url(../img/portfolio-04.jpg) no-repeat top / 100%;
 }
 
 .projects .projectSlider .sliderBox .sliderImg5{
     width: 100%;
     height: 70%;
-    border: 1px solid;
     background: url(../img/portfolio-01.jpg) no-repeat top / 100%;
 }
 
