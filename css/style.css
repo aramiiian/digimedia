@@ -587,3 +587,9 @@ nav .navbut:hover {
     background: url(../img/portfolio-01.jpg) no-repeat top / 100%;
 }
 
+.blog{
+    width: 100%;
+    height: 170vh;
+    border: 1px solid;
+    text-align: center;
+}
