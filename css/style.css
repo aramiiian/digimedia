@@ -67,6 +67,7 @@ nav {
     align-items: center;
     gap: 40px;
     border-bottom: 6px solid #F8F8F8;
+
 }
 
 nav .logo {
@@ -244,7 +245,7 @@ nav .navbut:hover {
     height: 93%;
     border-radius: 50%;
     background: #fff;
-    
+
     text-align: center;
 }
 
@@ -316,39 +317,42 @@ nav .navbut:hover {
     font-size: 20px;
     color: #B5B5B5;
 }
+
 .services {
     width: 100%;
     height: 150vh;
-    background: url(../img/services-left-dec.jpg) no-repeat left top / 60% , url(../img/services-right-dec.jpg) no-repeat right / 12%;
+    background: url(../img/services-left-dec.jpg) no-repeat left top / 60%, url(../img/services-right-dec.jpg) no-repeat right / 12%;
 }
+
 .services .ourService {
     margin-top: 130px;
     text-align: center;
 }
 
-.services .ourService h5{
+.services .ourService h5 {
     font-weight: 800;
     color: #726AE3;
-    
+
 }
 
-.services .ourService h2{
+.services .ourService h2 {
     font-size: 35px;
     font-weight: 800;
-    padding:15px 0 15px 0;
+    padding: 15px 0 15px 0;
 
 }
+
 .services .ourService span {
     color: #726AE3;
 }
 
-.services .ourService .linedec2{
+.services .ourService .linedec2 {
     width: 50px;
     border: 1px solid #726AE3;
     margin-left: 47%;
 }
 
-.services .servicesBut{
+.services .servicesBut {
     margin-top: 70px;
     width: 100%;
     height: 170px;
@@ -363,7 +367,7 @@ nav .navbut:hover {
     font-weight: 800;
 }
 
-.services .servicesBut .iconbut{
+.services .servicesBut .iconbut {
     width: 170px;
     height: 170px;
     border: 1px solid rgba(0, 0, 0, 0.100);
@@ -372,11 +376,11 @@ nav .navbut:hover {
 
 }
 
-.services .servicesBut .iconbut .btn{
+.services .servicesBut .iconbut .btn {
     margin-top: 30px;
 }
 
-.services .seo{
+.services .seo {
     width: 80%;
     height: 45%;
     border: 1px solid rgba(0, 0, 0, 0.050);
@@ -385,46 +389,49 @@ nav .navbut:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3% ;
+    gap: 3%;
     background: #fff;
 }
 
-.services .seo .seoAbout{
+.services .seo .seoAbout {
     width: 40%;
     height: 80%;
 
 }
 
-.services .seo .seoAbout h4{
+.services .seo .seoAbout h4 {
     font-size: 20px;
     font-weight: 800;
     color: #FA65B1;
-    
+
 }
-.services .seo .seoAbout p{
+
+.services .seo .seoAbout p {
     color: #C1C1C1;
     line-height: 28px;
     letter-spacing: .5px;
-    padding: 30px 0 ;
+    padding: 30px 0;
 }
 
-.services .seo .seoAbout span{
-    padding:0 50px 0 40px;
-}
-.services .seo .seoAbout span:nth-child(3){
-    padding:0 5px 0 40px;
-}
-.services .seo .seoAbout span:nth-child(8){
-    padding:0 0px 0 39px;
+.services .seo .seoAbout span {
+    padding: 0 50px 0 40px;
 }
 
-.services .seo .seoImg{
+.services .seo .seoAbout span:nth-child(3) {
+    padding: 0 5px 0 40px;
+}
+
+.services .seo .seoAbout span:nth-child(8) {
+    padding: 0 0px 0 39px;
+}
+
+.services .seo .seoImg {
     width: 40%;
     height: 80%;
-    background:url(../img/services-image.jpg) no-repeat center / 100%;
+    background: url(../img/services-image.jpg) no-repeat center / 100%;
 }
 
-.quote{
+.quote {
     width: 100%;
     height: 60vh;
     background: url(../img/quote-bg.jpg) no-repeat center / 100%;
@@ -437,7 +444,7 @@ nav .navbut:hover {
 .quote p {
     font-weight: 800;
     color: #F8F8F8;
-    padding: 7% 0 0 0 ;
+    padding: 7% 0 0 0;
 
 }
 
@@ -445,16 +452,16 @@ nav .navbut:hover {
     font-weight: 800;
     color: #F8F8F8;
     font-size: 35px;
-    padding: 20px 0 20px 0 ;
+    padding: 20px 0 20px 0;
 }
 
-.quote .linedec3{
+.quote .linedec3 {
     width: 4%;
     border: 1px solid #F8F8F8;
-    margin:0 0 60px 47%;
+    margin: 0 0 60px 47%;
 }
 
-.quote .form{
+.quote .form {
     width: 60%;
     height: 20%;
     background: #fff;
@@ -465,7 +472,7 @@ nav .navbut:hover {
     align-items: center;
 }
 
-.quote .form .url{
+.quote .form .url {
     width: 35%;
     height: 100%;
     border-top-left-radius: 30px;
@@ -475,7 +482,8 @@ nav .navbut:hover {
     border: 1px solid #2e2e2e00;
 
 }
-.quote .form .email{
+
+.quote .form .email {
     width: 35%;
     height: 100%;
     padding: 4%;
@@ -484,7 +492,7 @@ nav .navbut:hover {
 
 }
 
-.quote .form .btn2{
+.quote .form .btn2 {
     width: 35%;
     height: 100%;
     border-top-right-radius: 30px;
@@ -495,3 +503,87 @@ nav .navbut:hover {
     font-size: 16px;
     border: 1px solid #2e2e2e00;
 }
+
+.projects {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/portfolio-left-dec.jpg) no-repeat left / 43%, url(../img/portfolio-right-dec.jpg) no-repeat right / 30%;
+}
+
+.projectHead{
+    margin: 90px 120px;
+}
+.projects .projectHead p {
+    font-weight: 800;
+    color: #726AE3;
+}
+
+.projects .projectHead h4 {
+    font-size: 30px;
+    font-weight: 800;
+    padding: 20px 0px;
+}
+
+.projects .projectHead h4 span {
+    color: #726AE3;
+}
+
+.projects .projectHead .linedec4 {
+    width: 4%;
+    border: 1px solid #726AE3;
+}
+
+.projects .projectSlider{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.projects .projectSlider .sliderBox {
+    width: 17%;
+    height: 100%;
+    border: 1px solid rgba(116, 116, 116, 0.185);
+    border-radius: 35px;
+}
+
+.projects .projectSlider .sliderBox h6{
+    font-size: 20px;
+    font-weight: 700px;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+.projects .projectSlider .sliderBox p {
+    text-align: center;
+    color: #B4B4AF;
+}
+
+.projects .projectSlider .sliderBox .sliderImg1{
+    width: 100%;
+    height: 70%;
+    background: url(../img/portfolio-01.jpg) no-repeat top / 100%;
+}
+.projects .projectSlider .sliderBox .sliderImg2{
+    width: 100%;
+    height: 70%;
+    background: url(../img/portfolio-02.jpg) no-repeat top / 100%;
+}
+.projects .projectSlider .sliderBox .sliderImg3{
+    width: 100%;
+    height: 70%;
+    background: url(../img/portfolio-03.jpg) no-repeat top / 100%;
+}
+
+.projects .projectSlider .sliderBox .sliderImg4{
+    width: 100%;
+    height: 70%;
+    background: url(../img/portfolio-04.jpg) no-repeat top / 100%;
+}
+
+.projects .projectSlider .sliderBox .sliderImg5{
+    width: 100%;
+    height: 70%;
+    background: url(../img/portfolio-01.jpg) no-repeat top / 100%;
+}
+
