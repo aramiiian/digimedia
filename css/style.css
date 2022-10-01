@@ -645,10 +645,32 @@ nav .navbut:hover {
     border-radius: 30px;
     background: url(../img/blog-post-01.jpg) no-repeat top / 100%;
 }
-.blog .blogCont .leftBox div:nth-child(2){
-    width: 50px;
-    height: 80px;
+.blog .blogCont .leftBox .seoAnalysis {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.blog .blogCont .leftBox .seoAnalysis div:nth-child(1){
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
     background: #726AE3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+   
+}
+.blog .blogCont .leftBox .seoAnalysis div:nth-child(2){
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #C1C1C1;
    
 }
 .blog .blogCont .rightBox {
