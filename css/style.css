@@ -510,9 +510,10 @@ nav .navbut:hover {
     background: url(../img/portfolio-left-dec.jpg) no-repeat left / 43%, url(../img/portfolio-right-dec.jpg) no-repeat right / 30%;
 }
 
-.projectHead{
+.projectHead {
     margin: 90px 120px;
 }
+
 .projects .projectHead p {
     font-weight: 800;
     color: #726AE3;
@@ -533,7 +534,7 @@ nav .navbut:hover {
     border: 1px solid #726AE3;
 }
 
-.projects .projectSlider{
+.projects .projectSlider {
     width: 100%;
     height: 50%;
     display: flex;
@@ -548,46 +549,49 @@ nav .navbut:hover {
     border-radius: 35px;
 }
 
-.projects .projectSlider .sliderBox h6{
+.projects .projectSlider .sliderBox h6 {
     font-size: 20px;
     font-weight: 700px;
     text-align: center;
     margin: 20px 0 10px 0;
 }
+
 .projects .projectSlider .sliderBox p {
     text-align: center;
     color: #B4B4AF;
 }
 
-.projects .projectSlider .sliderBox .sliderImg1{
+.projects .projectSlider .sliderBox .sliderImg1 {
     width: 100%;
     height: 70%;
     background: url(../img/portfolio-01.jpg) no-repeat top / 100%;
 }
-.projects .projectSlider .sliderBox .sliderImg2{
+
+.projects .projectSlider .sliderBox .sliderImg2 {
     width: 100%;
     height: 70%;
     background: url(../img/portfolio-02.jpg) no-repeat top / 100%;
 }
-.projects .projectSlider .sliderBox .sliderImg3{
+
+.projects .projectSlider .sliderBox .sliderImg3 {
     width: 100%;
     height: 70%;
     background: url(../img/portfolio-03.jpg) no-repeat top / 100%;
 }
 
-.projects .projectSlider .sliderBox .sliderImg4{
+.projects .projectSlider .sliderBox .sliderImg4 {
     width: 100%;
     height: 70%;
     background: url(../img/portfolio-04.jpg) no-repeat top / 100%;
 }
 
-.projects .projectSlider .sliderBox .sliderImg5{
+.projects .projectSlider .sliderBox .sliderImg5 {
     width: 100%;
     height: 70%;
     background: url(../img/portfolio-01.jpg) no-repeat top / 100%;
 }
 
-.blog{
+.blog {
     width: 100%;
     height: 170vh;
     border: 1px solid;
@@ -595,20 +599,21 @@ nav .navbut:hover {
     background: url(../img/blog-left-dec.jpg) no-repeat left / 80%;
 }
 
-.blog .blogHead{
+.blog .blogHead {
     margin-top: 100px;
 }
-.blog .blogHead p{
+
+.blog .blogHead p {
     font-weight: 800;
     color: #726AE3;
 }
 
-.blog .blogHead h4{
+.blog .blogHead h4 {
     font-size: 35px;
     font-weight: 800;
 }
 
-.blog .blogHead h4 span{
+.blog .blogHead h4 span {
     color: #726AE3;
 }
 
@@ -627,7 +632,7 @@ nav .navbut:hover {
     gap: 30px;
 }
 
-.blog .blogCont .leftBox{
+.blog .blogCont .leftBox {
     width: 40%;
     height: 700px;
     border: 1px solid;
@@ -635,7 +640,8 @@ nav .navbut:hover {
     background: url(../img/blog-post-01.jpg) no-repeat top / 100%;
 }
 
-.blog .blogCont .rightBox{
+
+.blog .blogCont .rightBox {
     width: 40%;
     height: 700px;
     border: 1px solid;
