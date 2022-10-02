@@ -635,7 +635,7 @@ nav .navbut:hover {
 .blog .blogCont .leftBox {
     width: 40%;
     height: 700px;
-    border: 1px solid;
+    border: 1px solid rgba(0, 0, 0, 0.105);
     border-radius: 30px;
     position: relative;
 }
@@ -695,7 +695,6 @@ nav .navbut:hover {
 
 .blog .blogCont .leftBox .blogDev{
     width: 100%;
-    border: 1px solid #000;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -718,4 +717,11 @@ nav .navbut:hover {
     color: #FA65C2;
     border: 1px solid #FA65C2;
     background: #fff;
+    cursor: pointer;
+}
+
+.blog .blogCont .leftBox .blogDev > button:hover{
+    background: #FA65C2;
+    color: #fff;
+    transition: .5s linear ;
 }
