@@ -679,3 +679,24 @@ nav .navbut:hover {
     border: 1px solid;
     border-radius: 30px;
 }
+.blog .blogCont .leftBox h4 {
+    font-size: 20px;
+    font-weight: 800;
+    text-align:start ;
+    margin:25px 20px;
+}
+
+.blog .blogCont .leftBox > p {
+    text-align: start;
+    margin:0px 20px 25px;
+    letter-spacing: 0.5px;
+    color: #B5B5B5;
+}
+
+.blog .blogCont .leftBox .blogDev{
+    width: 100%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
