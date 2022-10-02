@@ -510,9 +510,10 @@ nav .navbut:hover {
     background: url(../img/portfolio-left-dec.jpg) no-repeat left / 43%, url(../img/portfolio-right-dec.jpg) no-repeat right / 30%;
 }
 
-.projectHead{
+.projectHead {
     margin: 90px 120px;
 }
+
 .projects .projectHead p {
     font-weight: 800;
     color: #726AE3;
@@ -533,7 +534,7 @@ nav .navbut:hover {
     border: 1px solid #726AE3;
 }
 
-.projects .projectSlider{
+.projects .projectSlider {
     width: 100%;
     height: 50%;
     display: flex;
@@ -548,42 +549,179 @@ nav .navbut:hover {
     border-radius: 35px;
 }
 
-.projects .projectSlider .sliderBox h6{
+.projects .projectSlider .sliderBox h6 {
     font-size: 20px;
     font-weight: 700px;
     text-align: center;
     margin: 20px 0 10px 0;
 }
+
 .projects .projectSlider .sliderBox p {
     text-align: center;
     color: #B4B4AF;
 }
 
-.projects .projectSlider .sliderBox .sliderImg1{
+.projects .projectSlider .sliderBox .sliderImg1 {
     width: 100%;
     height: 70%;
     background: url(../img/portfolio-01.jpg) no-repeat top / 100%;
 }
-.projects .projectSlider .sliderBox .sliderImg2{
+
+.projects .projectSlider .sliderBox .sliderImg2 {
     width: 100%;
     height: 70%;
     background: url(../img/portfolio-02.jpg) no-repeat top / 100%;
 }
-.projects .projectSlider .sliderBox .sliderImg3{
+
+.projects .projectSlider .sliderBox .sliderImg3 {
     width: 100%;
     height: 70%;
     background: url(../img/portfolio-03.jpg) no-repeat top / 100%;
 }
 
-.projects .projectSlider .sliderBox .sliderImg4{
+.projects .projectSlider .sliderBox .sliderImg4 {
     width: 100%;
     height: 70%;
     background: url(../img/portfolio-04.jpg) no-repeat top / 100%;
 }
 
-.projects .projectSlider .sliderBox .sliderImg5{
+.projects .projectSlider .sliderBox .sliderImg5 {
     width: 100%;
     height: 70%;
     background: url(../img/portfolio-01.jpg) no-repeat top / 100%;
 }
 
+.blog {
+    width: 100%;
+    height: 170vh;
+    border: 1px solid;
+    text-align: center;
+    background: url(../img/blog-left-dec.jpg) no-repeat left / 80%;
+}
+
+.blog .blogHead {
+    margin-top: 100px;
+}
+
+.blog .blogHead p {
+    font-weight: 800;
+    color: #726AE3;
+}
+
+.blog .blogHead h4 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.blog .blogHead h4 span {
+    color: #726AE3;
+}
+
+.blog .linedec5 {
+    width: 54px;
+    border: 1px solid #726AE3;
+    margin: 0 0 0 48%;
+}
+
+.blog .blogCont {
+    width: 100%;
+    height: fit-content;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.blog .blogCont .leftBox {
+    width: 40%;
+    height: 700px;
+    border: 1px solid rgba(0, 0, 0, 0.105);
+    border-radius: 30px;
+    position: relative;
+}
+.blog .blogCont .leftBox .leftImg{
+    width: 100%;
+    height: 400px;
+    border-radius: 30px;
+    background: url(../img/blog-post-01.jpg) no-repeat top / 100%;
+}
+.blog .blogCont .leftBox .seoAnalysis {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.blog .blogCont .leftBox .seoAnalysis div:nth-child(1){
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background: #726AE3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+   
+}
+.blog .blogCont .leftBox .seoAnalysis div:nth-child(2){
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #C1C1C1;
+   
+}
+.blog .blogCont .rightBox {
+    width: 40%;
+    height: 700px;
+    border: 1px solid;
+    border-radius: 30px;
+}
+.blog .blogCont .leftBox h4 {
+    font-size: 20px;
+    font-weight: 800;
+    text-align:start ;
+    margin:25px 20px;
+}
+
+.blog .blogCont .leftBox > p {
+    text-align: start;
+    margin:0px 0 25px 20px;
+    letter-spacing: 0.5px;
+    color: #B5B5B5;
+}
+
+.blog .blogCont .leftBox .blogDev{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blog .blogCont .leftBox .blogDev .devImg{
+    background: url(../img/author-post.jpg) no-repeat center / 100%;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.blog .blogCont .leftBox .blogDev p{
+    padding: 0 170px 0 0 ;
+    font-size: 15px;
+}
+.blog .blogCont .leftBox .blogDev > button{
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #FA65C2;
+    border: 1px solid #FA65C2;
+    background: #fff;
+    cursor: pointer;
+}
+
+.blog .blogCont .leftBox .blogDev > button:hover{
+    background: #FA65C2;
+    color: #fff;
+    transition: .5s linear ;
+}
