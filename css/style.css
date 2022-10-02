@@ -688,7 +688,7 @@ nav .navbut:hover {
 
 .blog .blogCont .leftBox > p {
     text-align: start;
-    margin:0px 20px 25px;
+    margin:0px 0 25px 20px;
     letter-spacing: 0.5px;
     color: #B5B5B5;
 }
@@ -699,4 +699,23 @@ nav .navbut:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.blog .blogCont .leftBox .blogDev .devImg{
+    background: url(../img/author-post.jpg) no-repeat center / 100%;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.blog .blogCont .leftBox .blogDev p{
+    padding: 0 170px 0 0 ;
+    font-size: 15px;
+}
+.blog .blogCont .leftBox .blogDev > button{
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #FA65C2;
+    border: 1px solid #FA65C2;
+    background: #fff;
 }
