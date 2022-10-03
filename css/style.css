@@ -673,12 +673,6 @@ nav .navbut:hover {
     color: #C1C1C1;
    
 }
-.blog .blogCont .rightBox {
-    width: 40%;
-    height: 700px;
-    border: 1px solid;
-    border-radius: 30px;
-}
 .blog .blogCont .leftBox h4 {
     font-size: 20px;
     font-weight: 800;
@@ -724,4 +718,29 @@ nav .navbut:hover {
     background: #FA65C2;
     color: #fff;
     transition: .5s linear ;
+}
+.blog .blogCont .rightBox {
+    width: 40%;
+    height: 700px;
+    border: 1px solid;
+    border-radius: 30px;
+}
+
+.blog .blogCont .rightBox .boxOne{
+    width: 100%;
+    height: 30%;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.blog .blogCont .rightBox .boxTwo{
+    width: 100%;
+    height: 30%;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.blog .blogCont .rightBox .boxThree{
+    width: 100%;
+    height: 30%;
+    border: 1px solid;
+    border-radius: 20px;
 }
