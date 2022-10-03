@@ -639,19 +639,22 @@ nav .navbut:hover {
     border-radius: 30px;
     position: relative;
 }
-.blog .blogCont .leftBox .leftImg{
+
+.blog .blogCont .leftBox .leftImg {
     width: 100%;
     height: 400px;
     border-radius: 30px;
     background: url(../img/blog-post-01.jpg) no-repeat top / 100%;
 }
+
 .blog .blogCont .leftBox .seoAnalysis {
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
 }
-.blog .blogCont .leftBox .seoAnalysis div:nth-child(1){
+
+.blog .blogCont .leftBox .seoAnalysis div:nth-child(1) {
     width: 120px;
     height: 40px;
     border-radius: 20px;
@@ -661,9 +664,10 @@ nav .navbut:hover {
     align-items: center;
     font-size: 15px;
     color: #fff;
-   
+
 }
-.blog .blogCont .leftBox .seoAnalysis div:nth-child(2){
+
+.blog .blogCont .leftBox .seoAnalysis div:nth-child(2) {
     width: 120px;
     height: 40px;
     display: flex;
@@ -671,46 +675,43 @@ nav .navbut:hover {
     align-items: center;
     font-size: 15px;
     color: #C1C1C1;
-   
+
 }
-.blog .blogCont .rightBox {
-    width: 40%;
-    height: 700px;
-    border: 1px solid;
-    border-radius: 30px;
-}
+
 .blog .blogCont .leftBox h4 {
     font-size: 20px;
     font-weight: 800;
-    text-align:start ;
-    margin:25px 20px;
+    text-align: start;
+    margin: 25px 20px;
 }
 
-.blog .blogCont .leftBox > p {
+.blog .blogCont .leftBox>p {
     text-align: start;
-    margin:0px 0 25px 20px;
+    margin: 0px 0 25px 20px;
     letter-spacing: 0.5px;
     color: #B5B5B5;
 }
 
-.blog .blogCont .leftBox .blogDev{
+.blog .blogCont .leftBox .blogDev {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.blog .blogCont .leftBox .blogDev .devImg{
+.blog .blogCont .leftBox .blogDev .devImg {
     background: url(../img/author-post.jpg) no-repeat center / 100%;
     width: 55px;
     height: 55px;
     border-radius: 50%;
 }
-.blog .blogCont .leftBox .blogDev p{
-    padding: 0 170px 0 0 ;
+
+.blog .blogCont .leftBox .blogDev p {
+    padding: 0 170px 0 0;
     font-size: 15px;
 }
-.blog .blogCont .leftBox .blogDev > button{
+
+.blog .blogCont .leftBox .blogDev>button {
     font-size: 17px;
     padding: 10px 20px;
     border-radius: 25px;
@@ -720,8 +721,55 @@ nav .navbut:hover {
     cursor: pointer;
 }
 
-.blog .blogCont .leftBox .blogDev > button:hover{
+.blog .blogCont .leftBox .blogDev>button:hover {
     background: #FA65C2;
     color: #fff;
-    transition: .5s linear ;
+    transition: .5s linear;
+}
+
+.blog .blogCont .rightBox {
+    width: 40%;
+    height: 900px;
+    border: 1px solid;
+    border-radius: 30px;
+}
+
+.blog .blogCont .rightBox .boxOne {
+    width: 100%;
+    height: 27%;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.blog .blogCont .rightBox .boxTwo {
+    width: 100%;
+    height: 27%;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.blog .blogCont .rightBox .boxThree {
+    width: 100%;
+    height: 27%;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.blog .blogCont .rightBox .boxImg {
+    width: 250px;
+    height: 100%;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.blog .blogCont .rightBox .boxOne>.boxImg {
+    background: url(../img/blog-post-02.jpg) no-repeat center / 100%;
+}
+
+.blog .blogCont .rightBox .boxTwo>.boxImg {
+    background: url(../img/blog-post-03.jpg) no-repeat center / 100%;
+}
+
+.blog .blogCont .rightBox .boxThree>.boxImg {
+    background: url(../img/blog-post-04.jpg) no-repeat center / 100%;
 }
