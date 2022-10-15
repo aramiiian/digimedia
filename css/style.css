@@ -743,7 +743,25 @@ nav .navbut:hover {
     display: flex;
     justify-content: space-around;
 }
+.blog .blogCont .rightBox .boxOne .boxText > button{
+    padding: 10px 16px;
+    border-radius: 16px;
+    background: #726AE3;
+    color: #fff;
+    border: none;
+}
 
+.blog .blogCont .rightBox .boxOne .boxText > p {
+    font-size: 14px;
+    color: #B4B4B4;
+    text-align: right;
+}
+
+.blog .blogCont .rightBox .boxOne .boxText > h6 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+}
 .blog .blogCont .rightBox .boxOne .imgOne{
     width: 240px;
     height: 100%;
@@ -759,6 +777,27 @@ nav .navbut:hover {
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
+}
+
+.blog .blogCont .rightBox .boxTwo .boxText > button{
+    padding: 10px 16px;
+    border-radius: 16px;
+    background: #726AE3;
+    color: #fff;
+    border: none;
+    
+}
+
+.blog .blogCont .rightBox .boxTwo .boxText > p {
+    font-size: 14px;
+    color: #B4B4B4;
+    text-align: right;
+}
+
+.blog .blogCont .rightBox .boxTwo .boxText > h6 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
 }
 .blog .blogCont .rightBox .boxTwo .imgTwo{
     width: 240px;
@@ -777,6 +816,26 @@ nav .navbut:hover {
     justify-content: space-around;
 }
 
+.blog .blogCont .rightBox .boxThree .boxText > button{
+    padding: 10px 16px;
+    border-radius: 16px;
+    background: #726AE3;
+    color: #fff;
+    border: none;
+    
+}
+
+.blog .blogCont .rightBox .boxThree .boxText > p {
+    font-size: 14px;
+    color: #B4B4B4;
+    text-align: right;
+}
+
+.blog .blogCont .rightBox .boxThree .boxText > h6 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+}
 .blog .blogCont .rightBox .boxThree .imgThree{
     width: 240px;
     height: 100%;
