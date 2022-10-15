@@ -732,13 +732,24 @@ nav .navbut:hover {
     height: 900px;
     border: 1px solid;
     border-radius: 30px;
+    
 }
 
 .blog .blogCont .rightBox .boxOne {
     width: 100%;
     height: 27%;
     border: 1px solid;
+    border-radius: 20px;    
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog .blogCont .rightBox .boxOne .imgOne{
+    width: 240px;
+    height: 100%;
+    border: 1px solid;
     border-radius: 20px;
+    background: url(../img/blog-post-02.jpg) no-repeat center / cover;
 }
 
 .blog .blogCont .rightBox .boxTwo {
@@ -746,6 +757,15 @@ nav .navbut:hover {
     height: 27%;
     border: 1px solid;
     border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.blog .blogCont .rightBox .boxTwo .imgTwo{
+    width: 240px;
+    height: 100%;
+    border: 1px solid;
+    border-radius: 20px;
+    background: url(../img/blog-post-03.jpg) no-repeat center / cover;
 }
 
 .blog .blogCont .rightBox .boxThree {
@@ -753,23 +773,25 @@ nav .navbut:hover {
     height: 27%;
     border: 1px solid;
     border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.blog .blogCont .rightBox .boxImg {
-    width: 250px;
+.blog .blogCont .rightBox .boxThree .imgThree{
+    width: 240px;
     height: 100%;
     border: 1px solid;
     border-radius: 20px;
+    background: url(../img/blog-post-04.jpg) no-repeat center / cover;
 }
-
-.blog .blogCont .rightBox .boxOne>.boxImg {
-    background: url(../img/blog-post-02.jpg) no-repeat center / 100%;
+.blog .blogCont .rightBox .boxText{
+    width: 50%;
+    height: 100%;
+    border: 1px solid #000;
 }
-
-.blog .blogCont .rightBox .boxTwo>.boxImg {
-    background: url(../img/blog-post-03.jpg) no-repeat center / 100%;
-}
-
-.blog .blogCont .rightBox .boxThree>.boxImg {
-    background: url(../img/blog-post-04.jpg) no-repeat center / 100%;
-}
+/* .blog .blogCont .rightBox .boxImg {
+    width: 230px;
+    height: 100%;
+    border: 1px solid;
+    border-radius: 20px;
+} */
